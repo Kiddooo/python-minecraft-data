@@ -60,7 +60,7 @@ def _grabdata(_dir, datapaths):
     for category, folder in datapaths.items():
         path = os.path.join(_dir, folder, f'{category}.json')
         if os.path.isfile(path):
-            with open(path) as fp:
+            with open(path, encoding="utf-8") as fp:
                 data[category] = json.load(fp)
     return data
 
