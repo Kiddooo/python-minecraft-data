@@ -1,8 +1,6 @@
 python-minecraft-data
 =====================
 
-|pypi|_
-
 Provide easy access to `minecraft-data <https://github.com/PrismarineJS/minecraft-data>`__ in python
 
 Installation
