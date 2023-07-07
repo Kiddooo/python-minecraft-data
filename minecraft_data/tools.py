@@ -40,6 +40,7 @@ def convert(_dir, version, edition ='pc'):
             return find_by(find, ret['items_name'], ret['blocks_name'])
 
     ret['find_item_or_block'] = find_item_or_block
+    ret['get_data'] = data
 
     return ret
 
